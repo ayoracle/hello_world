@@ -12,7 +12,7 @@ pipeline {
          stage('Checkout') {
              steps {
                  git branch: 'master',
-                     url: 'https://github.com/ayoracle/hello_world'
+                     url: 'https://github.com/ayoracle/hello_world.git'
              }
          }
 
