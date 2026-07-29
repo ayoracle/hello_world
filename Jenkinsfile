@@ -51,7 +51,7 @@ pipeline {
          bat '''
          del /F /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\HelloWorldWebApp-0.0.1-SNAPSHOT.war" 2>nul
          rmdir /S /Q "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\HelloWorldWebApp-0.0.1-SNAPSHOT" 2>nul
-         copy /Y target\HelloWorldWebApp-0.0.1-SNAPSHOT.war "C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps\HelloWorldWebApp.war"
+         copy /Y target\HelloWorldWebApp-0.0.1-SNAPSHOT.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 10.1\\webapps\\HelloWorldWebApp.war"
          '''
      }
  }
